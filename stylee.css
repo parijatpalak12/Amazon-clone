@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 150px;
+    
+}
+.logo{
+    background-image: url("white\ logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 138px;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* box2 */
+
+.first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 19px;
+}
+.second{
+    font-size: 1rem;
+    margin-left: 1px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: peru;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+
+}
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid peru;
+}
+/* box4 */
+
+.nav-first{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box5 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+ /* panel  */
+
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.panel-ops p{
+    margin-left: 10px;
+}
+.panel-ops{
+    display: flex;
+    width: 95%;
+    font-size: 0.9rem;
+}
+
+/* hero-section */
+
+.hero-section{
+    background-image: url("1st.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+a{
+    color: #2162a1;
+}
+
+/* shop-section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(223, 220, 220);
+}
+.box{
+    height: 400px;
+    width: 23%;
+    /* border: 2px  black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-image{
+    background-image: url("2nd.jpg");
+    background-size: cover;
+    height: 150px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    
+}
+.items{
+    width: 32%;
+}
+.items p{
+    color: black;
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.image-new,.image1-new,.image2-new{
+    height: 75px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.image-new{
+    background-image: url("coffee.jpg");
+}
+.image1-new{
+    background-image: url("pots.jpg");
+}
+.image2-new{
+    background-image: url("kettles.jpg");
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.box-content h2{
+    font-size: 21px;
+}
+
+/* clothes */
+
+.fashion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.fashion-new{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.clothes,
+.clothes-new{
+    width: 48%;
+}
+.clothes p,
+.clothes-new p{
+    color: black;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    
+}
+.cloth-new,.cloth1-new,.cloth2-new,.cloth3-new{
+    height: 120px;
+    width: 100%;
+    background-size: cover;
+}
+.cloth-new{
+    background-image: url("dresses.jpg");
+}
+.cloth1-new{
+    background-image: url("knits.jpg");
+}
+.cloth2-new{
+    background-image: url("jackets.jpg");
+}
+.cloth3-new{
+    background-image: url("jewelery.jpg");
+}
+/* .box-content p{
+    color: #2162a1;
+} */
+.box-content > p:first-of-type{
+    color: black;      /* Cooker */
+    font-size: 15px;
+}
+
+.box-content > p:last-of-type{
+    color: #2162a1;    /* Explore more */
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+/* furniture */
+.spaces{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.spaces-new{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.furniture,
+.furniture-new{
+    width: 48%;
+}
+.furniture p,
+.furniture-new p{
+    color: black;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    
+}
+.chair-new,.chair1-new,.chair2-new,.chair3-new{
+    height: 108px;
+    width: 100%;
+    background-size: cover;
+}
+.chair-new{
+    background-image: url("baskets\ and\ hampers.jpg");
+}
+.chair1-new{
+    background-image: url("hardware.jpg");
+}
+.chair2-new{
+    background-image: url("accent\ furniture.jpg");
+}
+.chair3-new{
+    background-image: url("wallpaper\ &paint.jpg");
+}
+.box-content > p:first-of-type{
+    color: black;      /* Cooker */
+    font-size: 15px;
+}
+
+.box-content > p:last-of-type{
+    color: #2162a1;    /* Explore more */
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+/* home appliance */
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.home-new{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.decor,
+.decor-new{
+    width: 48%;
+}
+.decor p,
+.decor-new p{
+    color: black;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    
+}
+.kitchen-new,.kitchen1-new,.kitchen2-new,.kitchen3-new{
+    height: 120px;
+    width: 100%;
+    background-size: cover;
+}
+.kitchen-new{
+    background-image: url("kitchen\ and\ dining.jpg");
+}
+.kitchen1-new{
+    background-image: url("home\ improvement.jpg");
+}
+.kitchen2-new{
+    background-image: url("decor.jpg");
+}
+.kitchen3-new{
+    background-image: url("bedding\ &\ bath.jpg");
+}
+.box-content > p:first-of-type{
+    color: black;      /* Cooker */
+    font-size: 15px;
+}
+
+.box-content > p:last-of-type{
+    color: #2162a1;    /* Explore more */
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.game-image{
+    background-image: url("video\ game.jpg");
+    height: 310px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 15px;
+}
+.business-image{
+    background-image: url("business.jpg");
+    height: 310px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 15px;
+}
+.decor-image{
+    background-image: url("garlands.jpg");
+    height: 310px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 15px;
+}
+.electronic-image{
+    background-image: url("speaker.jpg");
+    height: 310px;
+    width: 100%;
+    background-size:cover;
+    margin-top: 15px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #232f3e;
+    color: white;
+    border-top: 0.5px solid;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("white\ logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 138px;
+    
+}
+
+.foot-panel4{
+    background-color: #131a22;
+    color:white;
+    height: 90px;
+    font-size: 0.7rem;
+    text-align: center;
+    
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
+.pages a{
+    color: white;
+}
